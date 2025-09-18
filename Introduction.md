@@ -14,9 +14,14 @@ This is one of the most common concerns developers face when shipping code to pr
 
 ## Difference Between Virtualization and Containers  
 
+![Virtualization, Hypervisor, Containerization](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/z19w5od2lhm5pda8muce.png)
+
 - **Containers**: Think of them like VMs but without the overhead of a full operating system. They share the host OS kernel, which makes them lightweight and ideal for microservices.  
 
 - **Virtualization**: Refers to logically dividing a physical server into multiple virtual machines, each running its own full operating system.  
 
+```
+Containerization is the process, and Docker helps in achieving it, just like a hypervisor helps in implementing virtualization.
+```    
 ---
 
